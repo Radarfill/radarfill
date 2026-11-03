@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0A231C"/>
+  <g transform="translate(120 160) scale(0.625)">
+  
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#143F33"/>
+      <stop offset="1" stop-color="#0A231C"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- radar signal coming down from orbit -->
+  <g fill="none" stroke="#F2A33A" stroke-width="11" stroke-linecap="round">
+    <path d="M208.4 50.7 A74 74 0 0 0 303.6 50.7"/>
+    <path d="M186.6 76.7 A108 108 0 0 0 325.4 76.7" opacity=".55"/>
+  </g>
+  <!-- cloud hiding the season's peak -->
+  <path d="M190 200 a30 30 0 0 1 10-58 a44 44 0 0 1 82-12 a36 36 0 0 1 50 34 a26 26 0 0 1-6 51 H204 a28 28 0 0 1-14-15z" fill="#EAF2EE"/>
+  <!-- greenness curve: observed (green); the cloud gap filled by radar (amber dots) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M84.0 388.0 C139.4 388.0 167.1 307.3 206.0 263.5" stroke="#8FD14F" stroke-width="22"/>
+    <path d="M306.0 263.5 C344.9 307.3 372.6 388.0 428.0 388.0" stroke="#8FD14F" stroke-width="22"/>
+    <path d="M206.0 263.5 C220.5 247.2 236.5 236.0 256.0 236.0 C275.5 236.0 291.5 247.2 306.0 263.5" stroke="#F2A33A" stroke-width="16" stroke-dasharray="0.1 23"/>
+  </g>
+  <!-- crop rows -->
+  <g stroke="#215444" stroke-width="7" stroke-linecap="round">
+    <line x1="84" y1="432" x2="428" y2="432"/><line x1="124" y1="456" x2="388" y2="456"/>
+  </g>
+</g>
+  <text x="490" y="300" font-family="Inter, DejaVu Sans, sans-serif" font-weight="800" font-size="112" letter-spacing="-3" fill="#EAF2EE">Radar<tspan fill="#8FD14F">Fill</tspan></text>
+  <text x="494" y="372" font-family="Inter, DejaVu Sans, sans-serif" font-weight="500" font-size="34" fill="#9DB8AD">Seeing crops through the clouds</text>
+  <text x="494" y="440" font-family="Inter, DejaVu Sans, sans-serif" font-weight="600" font-size="18" letter-spacing="2" fill="#F2A33A">SENTINEL-1 RADAR · SENTINEL-2 OPTICAL · PAST DATA ONLY</text>
+</svg>
