@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/banner.png">
+    <img src="branding/banner-light.png" alt="RadarFill: seeing crops through the clouds" width="720">
+  </picture>
+</p>
+
 # RadarFill
 
 **Early-season crop recognition from satellite time series under cloud cover.**
